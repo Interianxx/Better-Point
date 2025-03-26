@@ -2,14 +2,17 @@ import { Button } from './Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faCartShopping, } from '@fortawesome/free-solid-svg-icons';
 import React from "react";
+import videoSrc from '../../public/videos/video-2.webm';
 
 const HeroSection = () => {
 	return (
 		<div className='hero-container'>
-			<video src='public/videos/video-2.webm'
+			<video src={videoSrc}
 				   autoPlay
 				   loop
-				   muted />
+				   muted
+				   playsInline
+			/>
 			<h1>BETTER POINT</h1>
 			<p>Conectando tu negocio con el futuro digital</p>
 			<div className='hero-btns'>

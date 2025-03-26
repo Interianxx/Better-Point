@@ -1,6 +1,7 @@
 {
   "name": "website-better-point",
   "private": true,
+  "homepage": "better-point.lat",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
