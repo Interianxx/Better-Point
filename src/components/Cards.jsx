@@ -10,35 +10,35 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/img-9.jpg'
-                            text='Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
-                            label='Productos'
-                            path='/products'
+                            src='images/img-91.jpg'
+                            text='Mantenimiento y limpieza profesional para un aire acondicionado más eficiente.'
+                            label='Servicios'
+                            path='/services'
                         />
                         <CardItem
-                            src='images/img-2.jpg'
-                            text='Travel through the Islands of Bali in a Private Cruise'
-                            label='Luxury'
-                            path='/products'
+                            src='images/img-21.jpg'
+                            text='Reparación y mantenimiento mecánico automotriz para que sigas en movimiento.'
+                            label='Servicios'
+                            path='/services'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/img-3.jpg'
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                            label='Mystery'
+                            src='images/img-311.png'
+                            text='Productos de limpieza para un hogar impecable y desinfectado.'
+                            label='Productos'
                             path='/products'
                         />
                         <CardItem
-                            src='images/img-4.jpg'
-                            text='Experience Football on Top of the Himilayan Mountains'
-                            label='Adventure'
+                            src='images/img-41.jpg'
+                            text='Dulces típicos con el auténtico sabor de la tradición.'
+                            label='Productos'
                             path='/products'
                         />
                         <CardItem
-                            src='images/img-8.jpg'
-                            text='Ride through the Sahara Desert on a guided camel tour'
-                            label='Adrenaline'
+                            src='images/img-81.jpg'
+                            text='Partes automotrices de calidad para un mejor rendimiento.'
+                            label='Productos'
                             path='/products'
                         />
                     </ul>

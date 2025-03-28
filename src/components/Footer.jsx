@@ -66,7 +66,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            TRVL
+                            Better Point
                             <FontAwesomeIcon icon={faTypo3} />
                         </Link>
                     </div>
