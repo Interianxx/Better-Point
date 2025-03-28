@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTypo3, } from '@fortawesome/free-brands-svg-icons';
 import {faBars, faShoppingCart, faTimes} from '@fortawesome/free-solid-svg-icons';
-
 import './Navbar.css';
 import { Button } from './Button';
 
@@ -63,7 +62,7 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                         <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                            Sign Up
+                            Carrito
                         </Link>
                     </li>
                 </ul>
