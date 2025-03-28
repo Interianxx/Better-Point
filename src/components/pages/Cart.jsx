@@ -102,7 +102,8 @@ const Cart = () => {
                                 <span>Subtotal</span>
                                 <span className="amount">${cart.cartTotalAmount}</span>
                             </div>
-                            <p>Taxes and shipping calculated at checkout</p>
+                            <p>
+                            Impuestos y envió son calculados al momento del pago</p>
                             <button>Check out</button>
                             <div className="continue-shopping">
                                 <Link to="/products">
