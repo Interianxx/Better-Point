@@ -34,10 +34,10 @@ const Cart = () => {
     };
     return (
         <div className="cart-container">
-            <h2>Shopping Cart</h2>
+            <h2>Carrito de compras</h2>
             {cart.cartItems.length === 0 ? (
                 <div className="cart-empty">
-                    <p>Your cart is currently empty</p>
+                    <p>Tu carro esta completamente vació</p>
                     <div className="start-shopping">
                         <Link to="/">
                             <svg
@@ -53,7 +53,7 @@ const Cart = () => {
                                     d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
                                 />
                             </svg>
-                            <span>Start Shopping</span>
+                            <span>Comenzar a comprar</span>
                         </Link>
                     </div>
                 </div>

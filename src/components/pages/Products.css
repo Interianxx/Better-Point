@@ -34,14 +34,14 @@
 .product img {
     width: 80%;
     margin-top: 1rem;
-    margin-left: auto;
+
     margin-right: auto;
 }
 .product .details {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .product .details .price {
     font-size: 20px;
