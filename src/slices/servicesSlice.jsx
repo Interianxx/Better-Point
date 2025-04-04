@@ -9,7 +9,7 @@ const initialState = {
 // Thunk para obtener servicios de la API
 export const servicesFetch = createAsyncThunk("services/servicesFetch", async () => {
     try {
-        const response = await axios.get("http://localhost:5000/services"); // Cambia la URL si usas otro backend
+        const response = await axios.get("https://vercel-api-interianxx-interianxxs-projects.vercel.app/services"); // Cambia la URL si usas otro backend
         return response.data;
     } catch (error) {
         console.log(error);
